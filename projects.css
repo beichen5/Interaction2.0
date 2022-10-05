@@ -57,3 +57,12 @@
     margin-left: 10px;
     color:white;
 }
+.maintitle{
+    height:300px;
+    width:300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+}
