@@ -71,7 +71,7 @@
 .poster1{
     width:500px;
     height:700px;
-    background-image:url(poster1.jpg);
+    background-image:url(night1.jpg);
     background-size: contain;
     animation-name: myanimation;
     animation-duration: 2s;
@@ -86,7 +86,7 @@
 .poster2{
     width:500px;
     height:350px;
-    background-image:url(poster2.jpg);
+    /*background-image:url(night2.jpg);*/
     animation-name: myanimation2;
     animation-duration: 2s;
 }
@@ -94,21 +94,21 @@
     width:500px;
     height:349px;
     margin-top: 1px;
-    background-image:url(poster3.jpg);
+   /* background-image:url(night4.jpg);*/
     animation-name: myanimation3;
     animation-duration: 2s;
 }
 .poster4{
     width:215px;
     height:700px;
-    background-image: url(poster4.jpg);
+    background-image: url(night6.jpg);
     animation-name: myanimation;
     animation-duration: 2s;
 }
 .poster5{
     width:215px;
     height:700px;
-    background-image: url(poster5.jpg);
+    background-image: url(night7.jpg);
     animation-name: myanimation;
     animation-duration: 2s;
 }
