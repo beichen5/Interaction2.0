@@ -56,17 +56,29 @@
                 line-height: 36px;
             }
 
+
             .player-sub-title-2 {
                 padding: 0 20px;
                 display: flex;
                 align-items: center;
             }
-
+.player-sub-title-2-text2 {
+                color: #fff;
+                font-size: 14px;
+                margin-left: 10px;
+}
             .player-sub-title-2-text {
                 color: #fff;
                 font-size: 14px;
                 margin-left: 10px;
-            }
+                transition: width 2s height 4s;
+                transition-timing-function: ease-in-out;
+}
+
+.player-sub-title-2-text:hover {
+    cursor: pointer;
+   font-size: 40px !important;
+}
 
             .icons-box {
                 display: flex;
@@ -88,10 +100,10 @@
                 align-items: center;
                 margin-top: 30px;
                 justify-content: space-between;
-            }
+}
             .lists-center {
                 width: 300px;
-            }
+}
             .lists-right {
                 display: flex;
             }

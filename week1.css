@@ -68,14 +68,25 @@
     }
 }
 
+audio{
+    display:none;
+}
 .poster1{
     width:500px;
     height:700px;
-    background-image:url(night1.jpg);
     background-size: contain;
     animation-name: myanimation;
     animation-duration: 2s;
+    transition: width 2s height 4s;
+    transition-timing-function: ease-in-out;
 }
+
+.poster1:hover {
+    cursor: pointer;
+    width: 800px;
+    height: 900px;
+}
+
 .poster-list2{
     box-sizing: border-box;
     padding: 7px 3px;
@@ -89,28 +100,63 @@
     /*background-image:url(night2.jpg);*/
     animation-name: myanimation2;
     animation-duration: 2s;
+    transition: width 2s height 4s;
+    transition-timing-function: ease-in-out;
 }
-.poster3{
+
+.poster2:hover {
+    cursor: pointer;
+    width: 600px;
+    height: 400px;
+}
+
+poster3{
     width:500px;
     height:349px;
     margin-top: 1px;
    /* background-image:url(night4.jpg);*/
     animation-name: myanimation3;
     animation-duration: 2s;
+    transition: width 2s height 4s;
+    transition-timing-function: ease-in-out;
 }
+
+.poster3:hover {
+    cursor: pointer;
+    width: 600px;
+    height: 400px;
+}
+
 .poster4{
     width:215px;
     height:700px;
     background-image: url(night6.jpg);
     animation-name: myanimation;
     animation-duration: 2s;
+    transition: width 2s height 4s;
+    transition-timing-function: ease-in-out;
 }
+
+.poster4:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 900px;
+}
+
 .poster5{
     width:215px;
     height:700px;
     background-image: url(night7.jpg);
     animation-name: myanimation;
     animation-duration: 2s;
+    transition: width 2s height 4s;
+    transition-timing-function: ease-in-out;
+}
+
+.poster5:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 900px;
 }
 
 .footer-fixed {
