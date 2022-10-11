@@ -1,10 +1,10 @@
-$("p").css({"color":"green"});
+$("p").css({"color":"white"});
 $(".trigger").on("click", function(){
-    $("h1").css({"color":"red"})
+    $("p").css({"color":"palevioletred"})
 })
 $("p").on("click", function(){
-    $(this).css({"color":"red"})
+    $(this).css({"color":"palevioletred"})
 })
 $("p").on("mouseover", function(){
-    $(this).css({"color":"blue"})
+    $(this).css({"color":"azure"})
 })
