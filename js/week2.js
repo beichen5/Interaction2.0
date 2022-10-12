@@ -6,5 +6,5 @@ $("p").on("click", function(){
     $(this).css({"color":"palevioletred"})
 })
 $("p").on("mouseover", function(){
-    $(this).css({"color":"azure"})
+    $(this).css({"color":"beige"})
 })
