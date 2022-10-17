@@ -1,6 +1,7 @@
-p{font-size:15;
- color:cadetblue
+body{
+    text-align: center
 }
-video{
-    background-color: aliceblue
+p{
+    color:aliceblue;
 }
+

@@ -1,11 +1,20 @@
-video { 
-    background-color:mediumpurple;
+body{
+    text-align: center;
+    background-size: cover;
+}
+img { 
+    width:400px;
+    height:450px;
 }
 
 .p1{
-  color:rebeccapurple;
+  color:aliceblue;
 }
 
 .p2{
-    color:purple
+    color:aliceblue;
+}
+.p3{
+    color:aliceblue;
+    margin-top: -20px
 }
