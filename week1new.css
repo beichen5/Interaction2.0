@@ -1,0 +1,126 @@
+ * {
+                margin: 0;
+                padding: 0;
+            }
+
+            .main {
+                min-height: 100vh;
+                background-color:black;
+            }
+
+            .header-fixed {
+                width: 100vw;
+                height: 44px;
+                box-sizing: border-box;
+                padding: 7px 3px;
+                position: fixed;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .header-fixed-back {
+                width: 30px;
+                height: 30px;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+            }
+
+            .header-fixed-placeholder {
+                height: 60px;
+                width: 100vw;
+            }
+audio{
+    display:none;
+} 
+
+.whole{
+    margin-top: -1000px;
+}
+
+.collection {
+    margin-top: 30px;
+    font-family: cursive;
+    display: flex;
+    align-items: flex-end;
+}
+
+.things {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    margin-top: -45px
+}
+
+.things a {
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.things img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.things .cover{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color:black;
+    opacity:1;
+    transition: margin-top 0.5s linear;
+}
+
+.things:hover .cover {
+    margin-top: -650px
+}
+
+.things .cover h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color:rgb(26, 80, 40);
+}
+.footer-fixed {
+                bottom: 0;
+                width: 100vw;
+                height: 50px;
+                display: flex;
+                position: fixed;
+                background-color:black;
+            }
+            .footer-fixed-list {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footer-text {
+                font-size: 15px;
+                color: #fff;
+            }
+            .header-fixed-back footer-icon {
+                margin-top: 5px;
+            }
+            .footer-fixed-placeholder {
+                height: 50px;
+                width: 100vw;
+                margin-top: 30px;
+            }
+.img1{
+    margin-left:-80px
+}
+.img2{
+    margin-left: 25px
+}
+.footer-text1{
+    margin-top: -23px;
+    font-size: 18px;
+    margin-left: -20px;
+    color:white
+}
