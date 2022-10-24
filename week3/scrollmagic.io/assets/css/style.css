@@ -120,11 +120,11 @@ html[xmlns] .clearfix {
 .footer-text1{
     margin-top: -23px;
     font-size: 18px;
-    margin-left: 200px;
+    margin-left: 20px;
     color:white
 }
 .footer-text2{
-    margin-left: 100px;
+    margin-left: -20px;
     color:white;
 }
 audio{
