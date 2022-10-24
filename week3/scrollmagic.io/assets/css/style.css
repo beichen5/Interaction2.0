@@ -127,3 +127,10 @@ html[xmlns] .clearfix {
     margin-left: 100px;
     color:white;
 }
+audio{
+    display:none
+}
+video{
+    height:auto;
+    width:auto;
+}
