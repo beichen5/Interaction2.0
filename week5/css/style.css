@@ -1,0 +1,180 @@
+body{
+	background-color: black;
+}
+.rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 110px auto 0 auto;
+	font-family: 'Bree Serif';
+	padding: 10px;
+}
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rw-sentence span{
+	color: #444;
+	font-size: 200%;
+	font-weight: normal;
+    color: lightgoldenrodyellow;
+}
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+.rw-words-1 span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: lightyellow;
+	-webkit-animation: rotateWord 18s linear infinite 0s;
+	-ms-animation: rotateWord 18s linear infinite 0s;
+	animation: rotateWord 18s linear infinite 0s;
+}
+.rw-words-1 span:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+	-ms-animation-delay: 3s; 
+	animation-delay: 3s; 
+	color: lightgoldenrodyellow;
+}
+.rw-words-1 span:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+	-ms-animation-delay: 6s; 
+	animation-delay: 6s; 
+	color: lightgoldenrodyellow;	
+}
+.rw-words-1 span:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+	-ms-animation-delay: 9s; 
+	animation-delay: 9s; 
+	color: lightgoldenrodyellow;
+}
+.rw-words-1 span:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+	-ms-animation-delay: 12s; 
+	animation-delay: 12s; 
+	color: lightgoldenrodyellow;
+}
+.rw-words-1 span:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+	-ms-animation-delay: 15s; 
+	animation-delay: 15s; 
+	color: lightgoldenrodyellow;
+}
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@media screen and (max-width: 768px){
+	.rw-sentence { font-size: 18px; }
+}
+@media screen and (max-width: 320px){
+	.rw-sentence { font-size: 9px; }
+}
+
+
+            .header-fixed {
+                width: 100vw;
+                height: 44px;
+                box-sizing: border-box;
+                padding: 7px 3px;
+                position: fixed;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .header-fixed-back {
+                width: 30px;
+                height: 30px;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+            }
+
+            .header-fixed-placeholder {
+                height: 60px;
+                width: 100vw;
+            }
+
+audio{
+    display:none
+}
+
+
+.footer-fixed {
+                bottom: 0;
+                width: 100vw;
+                height: 50px;
+                display: flex;
+                position: fixed;
+            }
+            .footer-fixed-list {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footer-text {
+                font-size: 15px;
+                color: #fff;
+            }
+            .header-fixed-back footer-icon {
+                margin-top: 5px;
+            }
+            .footer-fixed-placeholder {
+                height: 50px;
+                width: 100vw;
+                margin-top: 30px;
+            }
+.img1{
+    margin-left:-80px
+}
+.img2{
+    margin-left: 25px
+}
+.footer-text1{
+    margin-top: -23px;
+    font-size: 18px;
+    margin-left: 35px;
+    color:white
+}
+
+video{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            opacity: 80%;
+        }  
