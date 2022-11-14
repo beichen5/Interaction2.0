@@ -149,3 +149,8 @@ video{
 .v2{
     margin-left: -200px
 }
+.scroll{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}

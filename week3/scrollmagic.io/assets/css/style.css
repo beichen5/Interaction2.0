@@ -131,3 +131,8 @@ video{
     height:auto;
     width:auto;
 }
+.scroll{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}

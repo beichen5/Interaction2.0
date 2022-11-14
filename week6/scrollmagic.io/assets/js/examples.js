@@ -402,13 +402,3 @@ $(document).on("mouseup", function (e) {
 		.removeClass("dragging");
 	$("html").removeClass("noselect");
 });
-
-$(document).on("orientationchange", function (e) {
-	if ($("#example-wrapper.horizontal").length > 0) {
-		$("meta[name='viewport']").attr("content", (window.orientation === 0 ? "width" : "height")+ "=500");
-	}
-});
-$(document).trigger("orientationchange");
-
-
-

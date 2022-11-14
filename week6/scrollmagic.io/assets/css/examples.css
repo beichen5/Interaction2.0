@@ -112,7 +112,6 @@ section.demo * {
 section.demo {
 	font-size: 0;
 	text-align: center;
-	background-image: url("../img/example_bg_v.png");
 }
 section.demo.fullheight {
 	min-height: 100%;
@@ -825,9 +824,7 @@ html.touch .menuwrap.open .menubtn .button-lines::after {
 	color: white;
 }
 
-/*
-	OTHER
-*/
+
 a.viewsource:after {
 	content: " }";
 }
@@ -861,9 +858,10 @@ a.viewsource:before {
 	bottom: 0px;
 }
 #parallaxText {
+    margin-top: -600px;
+    margin-left: 500px;
 	width: 0;
 	height: 100%;
-	margin: auto;
 	position: relative;
 }
 #parallaxText .layer1, #parallaxText .layer2, #parallaxText .layer3 {
@@ -1014,12 +1012,6 @@ a.viewsource:before {
 	top: 50%;
 }
 
-/*
-
-Codehighlighting
-github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
-*/
 
 .hljs {
   display: block; padding: 0.5em;
