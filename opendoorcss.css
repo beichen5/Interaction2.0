@@ -5,3 +5,9 @@ p{
     color:aliceblue;
 }
 
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color:aliceblue;
+}

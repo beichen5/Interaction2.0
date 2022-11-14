@@ -18,3 +18,9 @@ img {
     color:aliceblue;
     margin-top: -20px
 }
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color:aliceblue;
+}

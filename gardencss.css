@@ -3,14 +3,22 @@ body{
    text-align: center
 }
 p{
-    color:darkolivegreen
+    color:aliceblue;
+    text-shadow: 5px 3px 5px #000000;
 }
 div{
-    background-color: azure;
-    background:rgba(255,255,255,0.3);
     height:300px;
     width:300px;
     border:10px;
     padding: 20px;
     margin: 0 auto
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color:aliceblue;
+}
+ul{
+List-style:none;
 }

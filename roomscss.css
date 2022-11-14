@@ -2,11 +2,10 @@ body{
     background-size: cover;
 }
 p{
-    color:aliceblue
+    color:aliceblue;
+    text-shadow: 5px 3px 5px #000000;
 }
 div{
-    background-color: azure;
-    background:rgba(255,255,255,0.3);
     height:300px;
     width:300px;
     border:10px;
@@ -15,4 +14,13 @@ div{
 }
 ul{
     color:aliceblue
+}
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color:aliceblue;
+}
+ul{
+List-style:none;
 }
