@@ -61,9 +61,18 @@
     justify-content: space-between;
     align-items: center; 
 }
-.subtitle{
-    margin-top: 60px;
+.subtitle1{
+    margin-top: 40px;
     margin-left: 10px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+.subtitle2{
+    margin-top: -50px;
+    margin-left: 0px;
     color:white;
     display: flex;
     justify-content: center;
@@ -78,4 +87,7 @@
     justify-content: center;
     justify-content: space-between;
     align-items: center; 
+}
+a:visited{
+    color: white
 }

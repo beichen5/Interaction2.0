@@ -1,10 +1,6 @@
-/*
-	Containers
-*/
-
 #example-wrapper.horizontal {
 	white-space: nowrap;
-	font-size: 0;  /* fix for spaces between inline block divs */
+	font-size: 0; 
 }
 #example-wrapper.horizontal div {
 	font-size: 13px;
@@ -101,9 +97,7 @@ section.demo.doublewidth, .spacer.doublewidth {
 .horizontal section.demo.fullwidth {
 	min-width: 100%;
 }
-/*
-	Elements
-*/
+
 h1.badge {
 	/*cursor: text;*/
 	pointer-events: none;
