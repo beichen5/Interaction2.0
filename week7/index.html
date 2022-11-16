@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>week7</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body style="background-image: url(background.jpg)">
+<script type="x-shader/x-vertex" id="vertexshader">
+
+  attribute float size;
+  attribute vec3 customColor;
+  varying vec3 vColor;
+
+  void main() {
+
+    vColor = customColor;
+    vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+    gl_PointSize = size * ( 300.0 / -mvPosition.z );
+    gl_Position = projectionMatrix * mvPosition;
+
+  }
+
+</script>
+<script type="x-shader/x-fragment" id="fragmentshader">
+
+ uniform vec3 color;
+ uniform sampler2D pointTexture;
+
+ varying vec3 vColor;
+
+ void main() {
+
+   gl_FragColor = vec4( color * vColor, 1.0 );
+   gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+
+ }
+</script>
+    <audio autoplay="autoplay" loop="loop" controls="controls">
+    <source src="particle.mp3"type="audio/mp3">
+        </audio>
+<div class="header-fixed">
+                <div class="header-fixed-back">
+                    <a href="https://beichen5.github.io/Interaction2.0/homepage.html">
+                    <img src="return.png" width="30" height="30">
+                </a>
+                </div>
+                         <div class="scroll">Move and long press the word</div>
+    </div>
+            <div class="header-fixed-placeholder"></div> 
+    
+<div id="magic"></div>
+
+    <div class="footer-fixed">
+                <div class="footer-fixed-list">
+                    <div class="header-fixed-back footer-icon">
+                        <img src="universelogo.jpg" class="img1" width="52" height="52">
+                    </div>
+                    <div class="footer-text1">Particle</div>
+                    <div class="footer-text2">Selected</div>
+                </div>
+                <div class="footer-fixed-list">
+                    <a href="https://beichen5.github.io/Interaction2.0/homepage.html">
+                    <div class="header-fixed-back footer-icon">
+                    <img src=homepage.png class="img2" width="30" height="30">
+                    </div>
+                    <div class="footer-text">HOMEPAGE</div>
+                    </a>
+                </div>
+            </div>
+    
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
