@@ -218,3 +218,8 @@ video{
             width: auto;  
             opacity: 80%;
         }  
+.scroll{
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}
